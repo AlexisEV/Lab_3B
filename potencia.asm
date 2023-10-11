@@ -58,7 +58,7 @@ pot:bltz $a0, error
          mul $t0, $t0, $a0
          j loop
     
-    caso0:li $v0, 0
+    caso0:li $v0, 1
           j return
           
     done: addi $v0, $t0, 0
